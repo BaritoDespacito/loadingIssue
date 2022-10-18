@@ -34,7 +34,7 @@ class DatabaseService {
     // final data = snapshot.data() as Map<String, dynamic>;
     // print(data);
     return UserData(
-      uid: snapshot.get('uid'),
+      uid: uid,
       sugars: snapshot.get('sugars'),
       strength: snapshot.get('strength'),
       name: snapshot.get('name'),
